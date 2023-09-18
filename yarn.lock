@@ -1105,6 +1105,11 @@
   resolved "https://registry.yarnpkg.com/@mdi/font/-/font-7.2.96.tgz#af800d9fe3b424f85ad45e9baa755bd003ab4986"
   integrity sha512-e//lmkmpFUMZKhmCY9zdjRe4zNXfbOIJnn6xveHbaV2kSw5aJ5dLXUxcRt1Gxfi7ZYpFLUWlkG2MGSFAiqAu7w==
 
+"@mdi/js@*":
+  version "7.2.96"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-7.2.96.tgz#a2a20be740a75e65c8b8b9e12a2b699c06a9208f"
+  integrity sha512-paR9M9ZT7rKbh2boksNUynuSZMHhqRYnEZOm/KrZTjQ4/FzyhjLHuvw/8XYzP+E7fS4+/Ms/82EN1pl/OFsiIA==
+
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz#dbf733a965ca47b1973177dc0bb6c889edcfb129"
@@ -4202,6 +4207,13 @@ make-dir@^3.0.2, make-dir@^3.1.0:
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+mdi-vue@^3.0.13:
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/mdi-vue/-/mdi-vue-3.0.13.tgz#d3ab6b4b121ed34bedf2fdc92d3e3465dfd0fd36"
+  integrity sha512-QHfRJZfhTA4FLqxBh4Gzxq+U+V/XQLw9l8lSIwJGMY4L+7oP+5HkAd+rsySIGfcHLEZakN3xcYpcroLZAoh0cw==
+  dependencies:
+    "@mdi/js" "*"
 
 mdn-data@2.0.14:
   version "2.0.14"
