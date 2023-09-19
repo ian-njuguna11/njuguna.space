@@ -90,12 +90,12 @@ export default {
       {
         path: "/reading-list",
         component: ReadingList,
-        alias: "Reading List",
+        alias: "Favorite Scientific Papers & Talks",
       },
       {
         path: "/my-learning",
         component: MyLearning,
-        alias: "What Am Learning?",
+        alias: "Topics I'm Enthusiastic About",
       },
     ],
   }),
